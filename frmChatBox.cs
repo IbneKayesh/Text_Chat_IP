@@ -107,7 +107,6 @@ namespace Text_Chat_IP
         }
 
 
-
         private void Add_Chat_Log(string Messages, string who)
         {
             txtChatLog.AppendText(who + Messages + " \n");
